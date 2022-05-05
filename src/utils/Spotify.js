@@ -1,5 +1,5 @@
 const clientID = process.env.SPOTIFY_CLIENT_ID;
-const redirectURI = process.env.PUBLIC_URL;
+const redirectURI = 'https://codesfromshad.github.io/jammming/';
 
 let accessToken;
 
