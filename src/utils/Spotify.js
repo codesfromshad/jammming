@@ -1,5 +1,5 @@
-const clientID = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
-const redirectURI = 'http://localhost:3000/';
+const clientID = process.env.SPOTIFY_CLIENT_ID;
+const redirectURI = process.env.PUBLIC_URL;
 
 let accessToken;
 
